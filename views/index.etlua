@@ -1,0 +1,8 @@
+<h1 class="header">book list</h1>
+<section class='main'>
+    <% render("views.book_list", books) %>
+</section>
+<footer class='info'>
+    <a href="mailto:pranspach@gmail.com?Subject=Lapis Example" target="_top">pranspach@gmail.com</a>
+    <p>Made with &#x2665;</p>
+</footer>

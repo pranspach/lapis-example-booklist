@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lapis Example: Booklist</title>
+	<meta name="description" content="Lapis example with Lua">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Language" content="en">
+	<link rel="stylesheet" href="static/app.css">
+</head>
+
+<body class="booklist-app">
+	<!-- Special etlua function -->
+	<% content_for("inner") %>
+</body>
+
+</html>

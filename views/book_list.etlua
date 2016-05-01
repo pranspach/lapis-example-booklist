@@ -1,0 +1,5 @@
+<ul class="book-list">
+	<% for i, book in ipairs(books) do %>
+		<% render("views.book", book) %>
+	<% end %>
+</ul>

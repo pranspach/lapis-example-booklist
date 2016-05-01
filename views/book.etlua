@@ -1,0 +1,5 @@
+<li id="book-<%= id %>" class="book-item <%= 'genre-' .. string.lower(attributes.genre) %>">
+    <label>
+        <%= attributes.title %>
+    </label>
+</li>
